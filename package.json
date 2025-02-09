@@ -4,7 +4,7 @@
   "description": "it shows us the weather of the place you are in",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "22.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
