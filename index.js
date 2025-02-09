@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const requests = require("requests");
 
-const homeFile = fs.readFileSync("home.html", "utf-8");
+const homeFile = fs.readFileSync("./home.html", "utf-8");
 
 const replaceVal = (tempVal, orgVal) => {
   if (!orgVal.main || !orgVal.sys || !orgVal.weather) {
